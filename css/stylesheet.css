@@ -1,0 +1,130 @@
+/* OTF: Medusa Gothic (Regular) By Sharkshock 2016 all rights reserved
+Designed by Dennis Ludlow dennis@sharkshock.net */
+@font-face {
+	font-family: 'medusa';
+	src: url('../fonts/MedusaGothic D.otf')	format('opentype');
+}
+/* https://graphicriver.net/user/ibeydesign/portfolio
+https://www.creativefabrica.com/designer/ibeydesign/ */
+@font-face {
+	font-family: 'calligram';
+	src: url('../fonts/calligrampersonal.ttf')	format('truetype');
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+  height: 100%;
+  margin: 0; 
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+h2 {
+  font-family: medusa, Roboto, sans-serif;
+}
+
+p {
+  font-family: Lato;
+  font-size: 1.2em;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*  fixed = parallax
+      scroll = normal
+  */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(../img/Fondo3.jpg);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(../img/Fondo4.jpg);
+  min-height: 800px;
+}
+
+.pimg3 {
+  background-image: url(../img/Fondo11.jpg);
+  min-height:800px;
+}
+
+.pimg4 {
+  background-image: url(../img/Fondo5.jpg);
+  min-height: 800px;
+}
+
+.pimg5 {
+  background-image: url(../img/The-Needles-of-Joy-2004-2.jpg);
+  min-height: 800px;
+}
+
+.pimg6 {
+  background-image: url(../img/320056-Sepik_1920x1080.jpg);
+  min-height: 800px;
+}
+
+.pimg7 {
+  background-image: url(../img/artsfon.com-34444.jpg);
+  min-height: 800px;
+}
+
+.pimg8 {
+  background-image: url(../img/artsfon.com-67719.jpg);
+  min-height: 800px;
+}
+
+.pimg9 {
+  background-image: url(../img/artsfon.com-71903.jpg);
+  min-height: 800px;
+}
+
+.pimg10 {
+  background-image: url(../img/Fondo2.jpg);
+  min-height: 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-light img, .section-dark img {
+  border-bottom: 10px solid #C1C1C1;
+  border-left: 10px solid #8D8C8B;
+  border-right: 10px solid #8D8C8B;
+  border-top: 10px solid #404040;
+  padding: 25px 50px;
+  background-color: #ddc;
+  box-shadow: 8px 6px 8px 0px rgba(0,0,0,0.75);
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+#imgID {
+  height: 80vh;
+}
+
+@media (max-width: 568px){
+  
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+}
